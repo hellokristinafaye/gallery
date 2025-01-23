@@ -15,14 +15,14 @@ h1{
     margin: 0 1%;
     flex-grow: 1;
     flex-basis: 0;
-    transform: .5s;
+    transform: 1s;
 }
 .image-box img {
     width: 100%;
     height: 700px;
     object-fit: cover;
     /* the above line changed the compressed pics to looking normal and sized down */
-    transform: .5s;
+    transform: 1s;
 }
 .image-box:hover {
     flex-basis: 50%;
